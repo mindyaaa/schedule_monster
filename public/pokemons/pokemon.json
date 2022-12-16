@@ -1,0 +1,16 @@
+[
+    {
+        "name" : "pikachu",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/132.png",
+    },
+    {
+        "name" : "ditto",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/25.png",
+    },
+    {
+        "name" :"bulbasaur",
+        "image" :"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/1.png",
+    }
+]
+
+
