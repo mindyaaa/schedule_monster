@@ -1,10 +1,12 @@
 import React from 'react';
+import { ContentsBox } from '../components/Style';
+import CharactersCard from '../components/CharactersCard';
 
 export default function CharactersList() {
     return (
-        <div>
-            Characters
-        </div>
+        <ContentsBox>
+            <CharactersCard></CharactersCard>
+        </ContentsBox>
     );
 }
 

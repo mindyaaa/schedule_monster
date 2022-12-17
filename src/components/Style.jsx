@@ -1,29 +1,62 @@
 import styled from 'styled-components';
 
 export const Main = styled.main`
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5rem;
 `
 
-export const Store = styled.div`
-display: flex;
-justify-content: space-around;
-width: 90%;
-height: 80%;
-background-color: #A2BCFE;
+export const ContentsBox = styled.div`
+    background-color: aliceblue;
+    border-radius: 1rem;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto 3rem;
+    padding: 1rem;
 `
-export const Menubar = styled.div`
-text-decoration: no;
+
+export const ItemList = styled.div`
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    width: 50%;
+    height: 80%;
 `
 
 export const MonsterProfile = styled.div`
-background-color: #85A6FC ;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `
 
-export const MonsterImage = styled.img`
-  width: 15rem;
-height: 15rem;
+export const MonsterImage = styled.div`
+    width: 15rem;
+    height: 15rem;
+    background-color: #85A6FC;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+`
+
+export const MonsterStatus = styled.div`
+    background-color: #85A6FC;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
 `
 
