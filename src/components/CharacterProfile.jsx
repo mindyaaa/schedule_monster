@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function CharactersList() {
+export default function CharacterProfile() {
     return (
         <div>
-            Characters
+            
         </div>
     );
 }
