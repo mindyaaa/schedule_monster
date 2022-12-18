@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Main, MonsterProfile, MonsterImage, ContentsBox, MonsterStatus, ItemList} from '../components/Style';
-
-
+import { Main, MonsterProfile, MonsterImage, ContentsBox, MonsterStatus, ItemList, ItemBox, ItemContainer, CategoryBox } from '../components/StoreStyle';
+import ItemCard from '../components/ItemCard';
 
 
 
@@ -11,6 +10,22 @@ export default function Items() {
         <ContentsBox>
             <ItemList>
                 상점 아이템
+            <ItemContainer>
+                    <CategoryBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    </CategoryBox>
+
+                    <CategoryBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    <ItemBox></ItemBox>
+                    </CategoryBox>
+        
+            </ItemContainer>
             </ItemList>
 
             <MonsterProfile>

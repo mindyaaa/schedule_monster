@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled, {css} from 'styled-components';
-import { Main } from './Style';
+import { Main } from './StoreStyle';
 
 const NavMenu = styled.li`
     color: dodgerblue;
@@ -18,6 +18,13 @@ export default function Navbar() {
     return (
         <div>
             <Main>
+
+            <Link to="/">
+            <img 
+            style={{width:'300px', height:'120px'}}
+            src="https://media.discordapp.net/attachments/1051684236299608071/1053532852366626867/logo.png" />
+
+            </Link>
 
             <Link style={{ textDecoration: 'none' }} to="/store">
                 <NavMenu>상점</NavMenu>

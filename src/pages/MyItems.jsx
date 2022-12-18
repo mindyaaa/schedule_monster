@@ -1,11 +1,14 @@
 import React from 'react';
-import { ContentsBox, MonsterProfile, MonsterStatus, MonsterImage, ItemList } from '../components/Style';
+import { ContentsBox, MonsterProfile, MonsterStatus, MonsterImage, ItemList, ItemBox, CategoryBox } from '../components/StoreStyle';
+import ItemCard from '../components/ItemCard';
 
 export default function MyItems() {
     return (
         <ContentsBox>
             
-            <ItemList>내가 보유한 아이템들</ItemList>
+            <ItemList>내가 보유한 아이템들
+                <ItemCard></ItemCard>
+            </ItemList>
 
             <MonsterProfile>
                 <MonsterImage>

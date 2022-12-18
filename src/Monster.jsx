@@ -9,6 +9,10 @@ import Root from './pages/Root';
 
 const router = createBrowserRouter([
   {
+    path:'/',
+    element: <h1>메인페ㅇㅣ지</h1>
+},
+  {
     path:'/store',
     element: <Root />,
     errorElement : <p>페이지를 찾을 수 없습니다😭</p>,
