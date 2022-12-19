@@ -10,6 +10,30 @@
     {
         "name" :"bulbasaur",
         "image" :"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/1.png",
+    },
+    {
+        "name" : "one",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/132.png",
+    },
+    {
+        "name" : "two",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/132.png",
+    },
+    {
+        "name" : "three",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/132.png",
+    },
+    {
+        "name" : "four",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/132.png",
+    },
+    {
+        "name" : "five",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/132.png",
+    },
+    {
+        "name" : "six",
+        "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
     }
 ]
 
